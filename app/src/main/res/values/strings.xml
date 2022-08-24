@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Around Egypt </string>
+    //welcomePage
+    <string name="Welcome_SignIn">Sign In</string>
+    <string name="Welcome_Signup">Sign Up</string>
+    //login
+    <string name="Login_email">Your Email</string>
+    <string name="Login_password">Your Password</string>
+    <string name="Login_button">Sign In</string>
+    <string name="Login_note">I don\'t have an account</string>
+    <string name="Login_signup">Sign Up</string>
+    <string name="Login_questionForget">Forget  Password?</string>
+    //forgot password
+    <string name="Forgot_email">Your Email</string>
+    <string name="Forget_password">Forget\nPassword?</string>
+    <string name="Forget_note">Don\'t worry! please enter your email address associated with your account</string>
+    <string name="Forget_cancelButton">Cancel</string>
+    <string name="Forget_sendButton">Send</string>
+    //register
+    <string name="Register_email">Your Email</string>
+    <string name="Register_username">Your Username</string>
+    <string name="Register_password">Your password</string>
+    <string name="Register_phone"> Your phone</string>
+    <string name="Register_button">Sign Up</string>
+    <string name="Register_signIn">Sign In</string>
+    <string name="Register_note">I already have an account</string>
+
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="changephoto">Change Profile Photo</string>
+    <string name="profilename">Full Name:</string>
+    <string name="profileemail">Email:</string>
+    <string name="profilephone">Phone:</string>
+    <string name="profilecancel">Cancel</string>
+    <string name="profileupdate">Save</string>
+    <string name="enternewpassword">New password</string>
+    <string name="newpasswordagain">Confirm new password</string>
+    <string name="changepasswordbutton">Change password</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="a">settings</string>
+
+
+</resources>

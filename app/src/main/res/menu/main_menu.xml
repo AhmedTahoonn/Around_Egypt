@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    group android:checkableBehavior="single"/>
+    <item android:id="@+id/nav_editProfile"
+        android:title="Edit Profile"
+        android:icon="@drawable/ic_baseline_edit_24"/>
+    <item android:id="@+id/nav_ChangePassword"
+        android:title="Change Password"
+        android:icon="@drawable/lock"/>
+
+    <item android:id="@+id/nav_message"
+        android:title="Message"
+        android:icon="@drawable/ic_baseline_message_24"/>
+    <item android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_baseline_login_24"/>
+
+
+</menu>

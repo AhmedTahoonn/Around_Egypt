@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmeddd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ahmeddd">
+        <activity
+            android:name=".Pages.chat.HomePageChat"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.chat.ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Drawer.Drawer_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Home.Change_Password"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Home.UpdateProfile_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Home.DisplayData_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Home.Places_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Register.Register_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Login.Login_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Welcome.Splash_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Login.ForgetPassword_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Home.Home_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Pages.Welcome.Welcome_Page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

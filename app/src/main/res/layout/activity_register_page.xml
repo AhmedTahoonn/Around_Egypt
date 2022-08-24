@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/primary_image"
+    tools:context=".Pages.Register.Register_Page">
+    <EditText
+        android:id="@+id/Register_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginHorizontal="40dp"
+        android:hint="@string/Register_username"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:textSize="16dp"
+        android:drawableStart="@drawable/person_24"
+        android:drawablePadding="17dp"
+        />
+    <EditText
+        android:id="@+id/Register_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="18dp"
+        android:hint="@string/Register_email"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+
+        android:textSize="16dp"
+        android:drawableStart="@drawable/mail_outline_24"
+        android:drawablePadding="17dp"
+
+        />
+    <EditText
+        android:id="@+id/Register_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="18dp"
+        android:hint="@string/Register_phone"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:textSize="16dp"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="17dp"
+        android:inputType="phone"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/Register_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="18dp"
+            android:hint="@string/Register_password"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:textSize="16dp"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="17dp"
+
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/Register_button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:paddingEnd="18dp"
+        android:text="@string/Register_button"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+
+        />
+    <ProgressBar
+        android:id="@+id/Register_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#BDBDBD"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="45dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Register_note"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="7dp"
+
+            />
+        <TextView
+            android:id="@+id/Register_signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Register_signIn"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

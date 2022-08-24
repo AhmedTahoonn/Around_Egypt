@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+
+    android:background="@drawable/welcome_image"
+    tools:context=".Pages.Welcome.Welcome_Page">
+
+
+    <Button
+        android:id="@+id/Welcome_SignIn"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/Welcome_SignIn"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/Welcome_Signup"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/Welcome_Signup"
+        android:layout_marginHorizontal="50dp"
+        android:textAllCaps="false"
+        android:textSize="19dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="80dp"
+
+
+        />
+</LinearLayout>
+
